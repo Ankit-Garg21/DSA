@@ -1,0 +1,17 @@
+{
+    "Test-Case-1": {
+        "CAPTION": "Fetch all invoices",
+        "URL": "/Invoices",
+        "REQUEST_TYPE": "get",
+        "REQUEST_HEADER": {
+            "tenant_id": "dms"
+        },
+        "ASSERTIONS": [
+            {
+                "status": [
+                    200
+                ]
+            }
+        ]
+    }
+}
